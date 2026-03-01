@@ -1,122 +1,97 @@
-# Nirob Digital – Podcast Industry Growth System
+# 👋 Hi, I'm Nirob – Podcast Website Designer & SEO Specialist
 
-Nirob Digital is a CLI-driven, HTML-based open system built for the global Podcast Industry.  
-This project focuses on podcast growth, SEO, monetization, promotion, and automation using  
-free tools, AI workflows, and Termux-friendly execution.
-
----
-
-## 🎯 Who This Is For
-- Podcast Owners
-- Podcast Website Owners
-- Podcast Hosts
-- Podcast Networks
-- Podcast Investors
-- Podcast Business Owners
-
-**Target regions:**  
-USA, UK, Canada, Australia, Germany, and international markets.
+**I help podcasters grow their audience with professional websites and data-driven SEO strategies.**  
+With expertise in podcast branding, AI automation, and digital marketing, I turn shows into brands.  
+From website design to full-scale promotion – I provide everything you need to succeed in the podcast world.
 
 ---
 
-## 🔧 What This Repository Contains
-- Google Adsense–ready HTML pages
-- SEO-focused blog posts for podcasters
-- High-converting service pages
-- Digital product pages (HTML-based)
-- Automation scripts for content and deployment
-- CLI-first workflow (Termux supported)
+## 🎯 What I Do
+
+| Service | Description |
+|---------|-------------|
+| **Podcast Website Design** | Custom, mobile-friendly websites that showcase your episodes and build your brand. |
+| **Podcast SEO** | Optimize your website and episodes to rank higher on Apple Podcasts, Spotify, and Google. |
+| **Podcast Promotion** | Social media strategies and campaigns to grow your listener base. |
+| **AI Podcast Automation** | Smart tools to save time on show notes, transcripts, and content creation. |
+| **Digital Products** | Checklists, templates, and AI prompts to help podcasters streamline their workflow. |
 
 ---
 
-## 💼 Core Services
-- Podcast Promotion
-- Podcast SEO
-- Podcast Guest Outreach
-- Podcast Monetization Consulting
+## 🔗 All My Links
+
+### 🌐 Main Platforms
+| Platform | Link |
+|----------|------|
+| **Website** | [nirodigital.com](https://nirodigital.com) |
+| **Fiverr** | [@podcastaipro](https://fiverr.com/podcastaipro) |
+| **Gumroad** | [nirodigital.gumroad.com](https://nirodigital.gumroad.com) |
+| **GitHub** | [@nirodigital](https://github.com/nirodigital) |
+| **LinkedIn** | [@nirodigitalai](https://linkedin.com/in/nirodigitalai) |
+
+### 📱 Social Media
+| Platform | Link |
+|----------|------|
+| **Facebook** | [facebook.com/aimuhnirob](https://facebook.com/aimuhnirob) |
+| **Instagram** | [instagram.com/aimuhnirob](https://instagram.com/aimuhnirob) |
+| **Threads** | [threads.net/aimuhnirob](https://threads.net/aimuhnirob) |
+| **Pinterest** | [pinterest.com/nirodigital](https://pinterest.com/nirodigital) |
+| **Telegram** | [t.me/aimuhnirob](https://t.me/aimuhnirob) |
+| **Twitter** | [twitter.com/digitalnirobai](https://twitter.com/digitalnirobai) |
+| **YouTube** | [youtube.com/@aimuhnirob](https://youtube.com/@aimuhnirob) |
 
 ---
 
-## 📦 Digital Products
-- Podcast Growth Checklist
-- Podcast Outreach Email Templates
-- Podcast SEO Starter Kit
-- Done-For-You Podcast Audit (Service)
+## 📁 What's Inside This GitHub Profile
+
+| Repository | Description |
+|------------|-------------|
+| [`cpanel`](https://github.com/nirodigital/cpanel) | Complete source code of [nirodigital.com](https://nirodigital.com) – all 32+ pages, HTML/CSS/JS. |
+| [`fiverr-gigs`](https://github.com/nirodigital/fiverr-gigs) | Gig descriptions, cover images, and service details used on Fiverr. |
+| [`gumroad-products`](https://github.com/nirodigital/gumroad-products) | Digital products: PDF checklists, HTML templates, AI prompts, and marketing bundles. |
+| [`termux-scripts`](https://github.com/nirodigital/termux-scripts) | SEO automation scripts (sitemap ping, backlink checker) that run on Termux. |
+| [`social-posts`](https://github.com/nirodigital/social-posts) | Content templates and ideas for LinkedIn, Twitter, Pinterest, and Instagram. |
+| [`assets`](https://github.com/nirodigital/assets) | Reusable CSS, JavaScript, and font files used across projects. |
 
 ---
 
-## ⚙️ Technology Stack
-- HTML5
-- Markdown
-- Shell Script
-- GitHub Pages
-- Termux (Android)
-- AI-assisted content workflows
+## 🔥 Popular Repositories
+
+| Repository | Description |
+|------------|-------------|
+| **[podcast-website-template](https://github.com/nirodigital/podcast-website-template)** | A free, modern HTML template designed for podcasters. Fully responsive and easy to customize. |
+| **[podcast-seo-checklist](https://github.com/nirodigital/podcast-seo-checklist)** | The markdown version of my **Ultimate Podcast SEO Checklist** – 20 steps to rank higher on Apple Podcasts and Spotify. |
+| **[termux-seo-scripts](https://github.com/nirodigital/termux-seo-scripts)** | Lightweight bash scripts for automating SEO tasks right from your mobile phone using Termux. |
+| **[ai-prompts-for-podcasters](https://github.com/nirodigital/ai-prompts-for-podcasters)** | 50+ AI prompts for show notes, episode ideas, interview questions, and social media content. |
 
 ---
 
-## 🌐 PRIMARY BRAND – Digital Nirob
+## 📊 GitHub Stats
 
-**Brand Website / Blog:** [digitalnirobai.blogspot.com](https://digitalnirobai.blogspot.com/)  
-**LinkedIn:** [linkedin.com/in/nirobdigitalai](https://www.linkedin.com/in/nirobdigitalai/)  
-**Instagram:** [instagram.com/digitalnirobai](https://www.instagram.com/digitalnirobai/)  
-**X (Twitter):** [x.com/digitalnirobai](https://x.com/digitalnirobai)  
-**Threads:** [threads.com/@digitalnirobai](https://www.threads.com/@digitalnirobai)  
-**Brand Email:** [muhnirob@proton.me](mailto:muhnirob@proton.me)
+![Nirob's GitHub stats](https://github-readme-stats.vercel.app/api?username=nirodigital&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nirodigital&layout=compact&theme=radical)
 
 ---
 
-## 👤 PERSONAL BRAND – MUH Nirob
+## 💡 Want to Work Together?
 
-**Facebook:** [facebook.com/aimuhnirob](https://www.facebook.com/aimuhnirob)  
-**Instagram:** [instagram.com/aimuhnirob](https://www.instagram.com/aimuhnirob)  
-**Threads:** [threads.net/@aimuhnirob](https://www.threads.net/@aimuhnirob)  
-**Pinterest:** [pinterest.com/aimuhnirob](https://www.pinterest.com/aimuhnirob)  
-**Telegram:** [t.me/aimuhnirob](https://t.me/aimuhnirob)  
-**Twitter / X:** [twitter.com/aimuhnirob](https://twitter.com/aimuhnirob)  
-**YouTube:** [youtube.com/@aimuhnirob](https://www.youtube.com/@aimuhnirob)
+If you're a podcaster looking for a custom website, SEO audit, or growth strategy, **let's talk!**  
+👉 [Book a free 15-minute consultation](https://nirodigital.com/contact) or message me directly on any of the platforms above.
 
 ---
 
-## 🧠 BLOGS & CONTENT PLATFORMS
+## 🚀 My Mission
 
-**Personal Blog:** [aimuhnirob.blogspot.com](https://aimuhnirob.blogspot.com/)  
-**MUH Nirob AI (English Content):** [muhnirobai.blogspot.com](https://muhnirobai.blogspot.com/)  
-**AI MUH Nirob (Bengali Content):** [aimonbodol.blogspot.com](https://aimonbodol.blogspot.com/)
-
----
-
-## 🧑‍💻 DEVELOPER / TECH
-
-**GitHub (Official & Confirmed):** [github.com/nirobdigital](https://github.com/nirobdigital)
+To help **100+ podcasters** achieve their dream audience by 2026 through professional websites, smart SEO, and AI-powered automation.  
+One podcast at a time.
 
 ---
 
-## 🛍️ DIGITAL PRODUCTS
-
-**Gumroad Store:** [muhnirob.gumroad.com](https://muhnirob.gumroad.com/)
-
----
-
-## 🔗 LINK HUB
-
-**Linktree:** [linktr.ee/aimuhnirob](https://linktr.ee/aimuhnirob)
+**📍 Based in Bangladesh · Serving clients worldwide**  
+**📅 Updated: March 2026**  
+**📌 v2.0 · Full Link Integration**
 
 ---
 
-## ✉️ OTHER EMAIL CONTACTS
-
-**AI / Tech Contact:** [aithinklab@proton.me](mailto:aithinklab@proton.me)  
-**Personal Contact:** [monbodol@proton.me](mailto:monbodol@proton.me)
-
----
-
-## 📬 Quick Contact
-
-- Email: [monbodol@proton.me](mailto:monbodol@proton.me)  
-- GitHub: [github.com/nirobdigital](https://github.com/nirobdigital/)
-
----
-
-## 📌 License
-MIT License
+**🙌 Thank you for visiting! Let's grow together.**
