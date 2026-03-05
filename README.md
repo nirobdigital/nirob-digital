@@ -1,97 +1,87 @@
-# 👋 Hi, I'm Nirob – Podcast Website Designer & SEO Specialist
+# Grow Your Podcast Audience with MUH Nirob
 
-**I help podcasters grow their audience with professional websites and data-driven SEO strategies.**  
-With expertise in podcast branding, AI automation, and digital marketing, I turn shows into brands.  
-From website design to full-scale promotion – I provide everything you need to succeed in the podcast world.
+**By MUH Nirob – [@podcastaipro](https://www.fiverr.com/podcastaipro)**  
 
----
+![MUH Nirob Profile](https://nirobdigital.com/images/about-profile.jpg)  
 
-## 🎯 What I Do
-
-| Service | Description |
-|---------|-------------|
-| **Podcast Website Design** | Custom, mobile-friendly websites that showcase your episodes and build your brand. |
-| **Podcast SEO** | Optimize your website and episodes to rank higher on Apple Podcasts, Spotify, and Google. |
-| **Podcast Promotion** | Social media strategies and campaigns to grow your listener base. |
-| **AI Podcast Automation** | Smart tools to save time on show notes, transcripts, and content creation. |
-| **Digital Products** | Checklists, templates, and AI prompts to help podcasters streamline their workflow. |
+I provide complete **podcast growth solutions** – from website design, SEO optimization, social media promotion to high-converting landing pages. Every service is tailored for podcasters, podcast networks, and media creators who want to expand their audience and increase engagement.
 
 ---
 
-## 🔗 All My Links
+## 1️⃣ I will design a high converting podcast website
 
-### 🌐 Main Platforms
-| Platform | Link |
-|----------|------|
-| **Website** | [nirodigital.com](https://nirodigital.com) |
-| **Fiverr** | [@podcastaipro](https://fiverr.com/podcastaipro) |
-| **Gumroad** | [nirodigital.gumroad.com](https://nirodigital.gumroad.com) |
-| **GitHub** | [@nirodigital](https://github.com/nirodigital) |
-| **LinkedIn** | [@nirodigitalai](https://linkedin.com/in/nirodigitalai) |
+![Podcast Website Design](https://nirobdigital.com/images/service-webdesign.jpg)
 
-### 📱 Social Media
-| Platform | Link |
-|----------|------|
-| **Facebook** | [facebook.com/aimuhnirob](https://facebook.com/aimuhnirob) |
-| **Instagram** | [instagram.com/aimuhnirob](https://instagram.com/aimuhnirob) |
-| **Threads** | [threads.net/aimuhnirob](https://threads.net/aimuhnirob) |
-| **Pinterest** | [pinterest.com/nirodigital](https://pinterest.com/nirodigital) |
-| **Telegram** | [t.me/aimuhnirob](https://t.me/aimuhnirob) |
-| **Twitter** | [twitter.com/digitalnirobai](https://twitter.com/digitalnirobai) |
-| **YouTube** | [youtube.com/@aimuhnirob](https://youtube.com/@aimuhnirob) |
+**Features:**
+- Modern, responsive website design
+- SEO-friendly structure for better ranking
+- Mobile-friendly and fast loading
+- Custom pages: landing, multi-page, blog
+- 1-month support included
+
+**Benefits:** Convert casual visitors into loyal listeners, build your podcast brand, and grow your audience effectively.
+
+**Why choose this gig:** Designed for podcasters, international-ready, with a focus on conversions and audience engagement.
+
+**[View Fiverr Gig](https://www.fiverr.com/podcastaipro/design-a-high-converting-podcast-website-for-podcaster/)**
 
 ---
 
-## 📁 What's Inside This GitHub Profile
+## 2️⃣ I will optimize your podcast website for SEO and organic growth
 
-| Repository | Description |
-|------------|-------------|
-| [`cpanel`](https://github.com/nirodigital/cpanel) | Complete source code of [nirodigital.com](https://nirodigital.com) – all 32+ pages, HTML/CSS/JS. |
-| [`fiverr-gigs`](https://github.com/nirodigital/fiverr-gigs) | Gig descriptions, cover images, and service details used on Fiverr. |
-| [`gumroad-products`](https://github.com/nirodigital/gumroad-products) | Digital products: PDF checklists, HTML templates, AI prompts, and marketing bundles. |
-| [`termux-scripts`](https://github.com/nirodigital/termux-scripts) | SEO automation scripts (sitemap ping, backlink checker) that run on Termux. |
-| [`social-posts`](https://github.com/nirodigital/social-posts) | Content templates and ideas for LinkedIn, Twitter, Pinterest, and Instagram. |
-| [`assets`](https://github.com/nirodigital/assets) | Reusable CSS, JavaScript, and font files used across projects. |
+![Podcast SEO Audit & Optimization](https://nirobdigital.com/images/podcast-seo-audit-optimization-infographic.png)
 
----
+**Features:**
+- Full SEO audit for your podcast website
+- On-page optimization and content recommendations
+- High-quality backlink integration (Premium)
+- Trackable results with analytics
+- Custom strategy tailored to your podcast niche
 
-## 🔥 Popular Repositories
+**Benefits:** Boost your podcast's organic reach, attract more listeners, and rank higher in search engines.
 
-| Repository | Description |
-|------------|-------------|
-| **[podcast-website-template](https://github.com/nirodigital/podcast-website-template)** | A free, modern HTML template designed for podcasters. Fully responsive and easy to customize. |
-| **[podcast-seo-checklist](https://github.com/nirodigital/podcast-seo-checklist)** | The markdown version of my **Ultimate Podcast SEO Checklist** – 20 steps to rank higher on Apple Podcasts and Spotify. |
-| **[termux-seo-scripts](https://github.com/nirodigital/termux-seo-scripts)** | Lightweight bash scripts for automating SEO tasks right from your mobile phone using Termux. |
-| **[ai-prompts-for-podcasters](https://github.com/nirodigital/ai-prompts-for-podcasters)** | 50+ AI prompts for show notes, episode ideas, interview questions, and social media content. |
+**Why choose this gig:** Focused exclusively on podcasters, with long-term growth and measurable results.
+
+**[View Fiverr Gig](https://www.fiverr.com/podcastaipro/optimize-your-podcast-website-for-seo-and-organic-growth/)**
 
 ---
 
-## 📊 GitHub Stats
+## 3️⃣ I will promote your podcast on social media to grow listeners
 
-![Nirob's GitHub stats](https://github-readme-stats.vercel.app/api?username=nirodigital&show_icons=true&theme=radical)
+![Podcast Social Media Promotion](https://nirobdigital.com/images/podcast-social-media-promotion-infographic.png)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nirodigital&layout=compact&theme=radical)
+**Features:**
+- Targeted social media campaigns
+- Custom posts for Instagram, Twitter/X, Facebook, LinkedIn
+- Engagement tracking & analytics
+- Flexible packages: 5, 15, or 30 posts
+- Optional report on results
 
----
+**Benefits:** Expand your podcast audience, increase engagement, and measure results to refine marketing strategies.
 
-## 💡 Want to Work Together?
+**Why choose this gig:** Proven strategies for international podcasters, optimized for clicks and listener growth.
 
-If you're a podcaster looking for a custom website, SEO audit, or growth strategy, **let's talk!**  
-👉 [Book a free 15-minute consultation](https://nirodigital.com/contact) or message me directly on any of the platforms above.
-
----
-
-## 🚀 My Mission
-
-To help **100+ podcasters** achieve their dream audience by 2026 through professional websites, smart SEO, and AI-powered automation.  
-One podcast at a time.
+**[View Fiverr Gig](https://www.fiverr.com/podcastaipro/promote-your-podcast-on-social-media-to-grow-listeners/)**
 
 ---
 
-**📍 Based in Bangladesh · Serving clients worldwide**  
-**📅 Updated: March 2026**  
-**📌 v2.0 · Full Link Integration**
+## 4️⃣ I will build a landing page to grow your podcast audience
+
+![Podcast Landing Page Design](https://nirobdigital.com/images/podcast-landing-page-design-infographic.png)
+
+**Features:**
+- High-converting landing page design
+- Email signup form integration
+- Clear CTA buttons to increase engagement
+- Responsive on desktop & mobile
+- Optional analytics and heatmaps
+
+**Benefits:** Convert visitors into subscribers and listeners, capture emails, and measure growth effectively.
+
+**Why choose this gig:** Tailored for podcasters, designed for conversions and audience growth, backed by professional expertise.
+
+**[View Fiverr Gig](https://www.fiverr.com/podcastaipro/build-a-landing-page-to-grow-your-podcast-audience)**
 
 ---
 
-**🙌 Thank you for visiting! Let's grow together.**
+Visit [www.nirobdigital.com](https://www.nirobdigital.com) for more information about MUH Nirob and Podcast Website Design & Growth Systems.
