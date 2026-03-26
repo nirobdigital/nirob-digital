@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products – Nirob Digital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .product-card {
+            background: var(--dark-gray);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+        .product-price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 1rem 0;
+        }
+        .btn-small {
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html"><span class="brand-text">Nirob<span class="highlight">Digital</span></span></a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+    
+    <div style="padding: 8rem 0 4rem;">
+        <div class="container">
+            <div class="section-header">
+                <h1>Digital Products</h1>
+                <p>Premium tools and resources for your digital journey</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <i class="fas fa-magic" style="font-size: 2rem; color: var(--primary);"></i>
+                    <h3>ChatGPT Prompts Mega Pack</h3>
+                    <p>5000+ premium prompts for marketing, coding, content creation, and business.</p>
+                    <div class="product-price">$47</div>
+                    <a href="#" class="btn btn-primary btn-small">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <i class="fas fa-chart-line" style="font-size: 2rem; color: var(--primary);"></i>
+                    <h3>Crypto Trading Bot</h3>
+                    <p>Automated trading bot for Binance, Bybit, and OKX. 24/7 trading.</p>
+                    <div class="product-price">$99</div>
+                    <a href="#" class="btn btn-primary btn-small">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <i class="fas fa-paint-brush" style="font-size: 2rem; color: var(--primary);"></i>
+                    <h3>Podcast Artwork Templates</h3>
+                    <p>100 customizable cover art templates for your podcast brand.</p>
+                    <div class="product-price">$39</div>
+                    <a href="#" class="btn btn-primary btn-small">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <i class="fas fa-shield-alt" style="font-size: 2rem; color: var(--primary);"></i>
+                    <h3>Cybersecurity Checklist</h3>
+                    <p>Complete security checklist for businesses and individuals.</p>
+                    <div class="product-price">$29</div>
+                    <a href="#" class="btn btn-primary btn-small">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <i class="fas fa-code" style="font-size: 2rem; color: var(--primary);"></i>
+                    <h3>Web3 Developer Toolkit</h3>
+                    <p>Smart contract templates, Solidity guides, and blockchain resources.</p>
+                    <div class="product-price">$79</div>
+                    <a href="#" class="btn btn-primary btn-small">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <i class="fas fa-envelope" style="font-size: 2rem; color: var(--primary);"></i>
+                    <h3>Email Marketing Templates</h3>
+                    <p>500+ professional email templates for campaigns and newsletters.</p>
+                    <div class="product-price">$29</div>
+                    <a href="#" class="btn btn-primary btn-small">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom"><p>&copy; 2026 Nirob Digital. All rights reserved.</p></div>
+        </div>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

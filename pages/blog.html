@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog – Nirob Digital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .blog-card {
+            background: var(--dark-gray);
+            border-radius: 1rem;
+            border: 1px solid var(--border);
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+        .blog-content {
+            padding: 1.5rem;
+        }
+        .blog-date {
+            color: var(--primary);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+        .blog-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+        .blog-excerpt {
+            color: var(--gray);
+            margin-bottom: 1rem;
+        }
+        .read-more {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html"><span class="brand-text">Nirob<span class="highlight">Digital</span></span></a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+    
+    <div style="padding: 8rem 0 4rem;">
+        <div class="container">
+            <div class="section-header">
+                <h1>Latest Insights</h1>
+                <p>Articles, tutorials, and guides for digital professionals</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <div class="blog-date">March 25, 2026</div>
+                        <h3 class="blog-title">How to Start a Podcast in 2026: Complete Guide</h3>
+                        <p class="blog-excerpt">Learn everything you need to launch a successful podcast this year.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <div class="blog-date">March 20, 2026</div>
+                        <h3 class="blog-title">Bitcoin Price Prediction 2026: Expert Analysis</h3>
+                        <p class="blog-excerpt">What to expect from Bitcoin this year after the halving.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <div class="blog-date">March 15, 2026</div>
+                        <h3 class="blog-title">500+ ChatGPT Prompts for Content Creators</h3>
+                        <p class="blog-excerpt">Boost your productivity with these proven AI prompts.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom"><p>&copy; 2026 Nirob Digital. All rights reserved.</p></div>
+        </div>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
