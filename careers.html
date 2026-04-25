@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers – Nirob Digital | 100+ Open Positions</title>
+    <meta name="description" content="Join Nirob Digital! We're hiring for 100+ positions worldwide. Remote work, competitive salary, and global opportunities. Apply now for AI, Crypto, Tech, and Marketing roles.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0A0F1A;
+            color: #F1F5F9;
+            line-height: 1.5;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #0F172A 0%, #0A0F1A 100%);
+            border-bottom: 1px solid #1E293B;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .logo a {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #10B981, #3B82F6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: #94A3B8;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #10B981;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 60px 0 40px;
+            background: linear-gradient(135deg, #0F172A, #0A0F1A);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+
+        .hero h1 span {
+            color: #10B981;
+        }
+
+        .hero p {
+            color: #94A3B8;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Stats */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #10B981;
+        }
+
+        .stat-label {
+            color: #64748B;
+            font-size: 0.85rem;
+        }
+
+        /* Search & Filters */
+        .search-section {
+            background: #11181C;
+            padding: 24px 0;
+            border-bottom: 1px solid #1E293B;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 12px 20px;
+            background: #0F172A;
+            border: 1px solid #2D3A4E;
+            border-radius: 40px;
+            color: #F1F5F9;
+            font-size: 1rem;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-select {
+            padding: 10px 16px;
+            background: #0F172A;
+            border: 1px solid #2D3A4E;
+            border-radius: 40px;
+            color: #F1F5F9;
+            cursor: pointer;
+        }
+
+        .filter-btn {
+            background: #1E293B;
+            border: 1px solid #334155;
+            padding: 8px 20px;
+            border-radius: 40px;
+            color: #94A3B8;
+            cursor: pointer;
+            transition: 0.2s;
+            font-size: 0.85rem;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: #10B981;
+            border-color: #10B981;
+            color: #0A0F1A;
+        }
+
+        /* Circulars Grid */
+        .circulars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 24px;
+            padding: 48px 0;
+        }
+
+        .circular-card {
+            background: #11181C;
+            border: 1px solid #1E293B;
+            border-radius: 20px;
+            padding: 24px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .circular-card:hover {
+            transform: translateY(-4px);
+            border-color: #10B981;
+        }
+
+        .circular-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .badge-fulltime { background: #10B98120; color: #10B981; }
+        .badge-parttime { background: #3B82F620; color: #3B82F6; }
+        .badge-freelance { background: #F59E0B20; color: #F59E0B; }
+        .badge-remote { background: #8B5CF620; color: #8B5CF6; }
+        .badge-intern { background: #EC489A20; color: #EC489A; }
+        .badge-contract { background: #EF444420; color: #EF4444; }
+
+        .circular-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .circular-meta {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+            color: #64748B;
+            font-size: 0.8rem;
+        }
+
+        .circular-meta i {
+            width: 20px;
+            margin-right: 4px;
+        }
+
+        .circular-desc {
+            color: #94A3B8;
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .btn-apply {
+            background: #10B981;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 40px;
+            color: #0A0F1A;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.2s;
+            width: 100%;
+        }
+
+        .btn-apply:hover {
+            background: #059669;
+            transform: translateY(-2px);
+        }
+
+        /* Load More Button */
+        .load-more {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .load-more-btn {
+            background: transparent;
+            border: 2px solid #10B981;
+            padding: 12px 32px;
+            border-radius: 40px;
+            color: #10B981;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .load-more-btn:hover {
+            background: #10B981;
+            color: #0A0F1A;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-content {
+            background: #11181C;
+            border: 1px solid #2D3A4E;
+            border-radius: 24px;
+            max-width: 800px;
+            width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            padding: 32px;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h2 {
+            font-size: 1.5rem;
+        }
+
+        .close-modal {
+            background: none;
+            border: none;
+            color: #94A3B8;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .modal-meta {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            padding: 16px;
+            background: #0F172A;
+            border-radius: 16px;
+        }
+
+        .modal-desc {
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .apply-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            background: #0F172A;
+            border: 1px solid #2D3A4E;
+            border-radius: 12px;
+            color: #F1F5F9;
+            font-family: inherit;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .submit-btn {
+            background: #10B981;
+            border: none;
+            padding: 14px;
+            border-radius: 40px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        /* Footer */
+        .footer {
+            border-top: 1px solid #1E293B;
+            padding: 40px 0;
+            text-align: center;
+            color: #64748B;
+        }
+
+        @media (max-width: 768px) {
+            .circulars-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        <div class="logo"><a href="index.html">Nirob Digital</a></div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="blog.html">Blog</a>
+            <a href="careers.html" class="active">Careers</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1>Join the <span>Nirob Digital</span> Team</h1>
+        <p>Build the future of digital income. We're hiring passionate people to join our global team.</p>
+        <div class="stats">
+            <div class="stat"><div class="stat-number">100+</div><div class="stat-label">Open Positions</div></div>
+            <div class="stat"><div class="stat-number">100%</div><div class="stat-label">Remote</div></div>
+            <div class="stat"><div class="stat-number">6400+</div><div class="stat-label">Jobs Vision</div></div>
+            <div class="stat"><div class="stat-number">Global</div><div class="stat-label">Opportunity</div></div>
+        </div>
+    </div>
+</section>
+
+<!-- Search & Filters -->
+<section class="search-section">
+    <div class="container">
+        <div class="search-box">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search positions, skills, or keywords...">
+        </div>
+        <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="Technical">Technical</button>
+            <button class="filter-btn" data-filter="Content">Content</button>
+            <button class="filter-btn" data-filter="Marketing">Marketing</button>
+            <button class="filter-btn" data-filter="Design">Design</button>
+            <button class="filter-btn" data-filter="Support">Support</button>
+            <button class="filter-btn" data-filter="Management">Management</button>
+            <button class="filter-btn" data-filter="Sales">Sales</button>
+            <button class="filter-btn" data-filter="Finance">Finance</button>
+            <button class="filter-btn" data-filter="HR">HR</button>
+        </div>
+        <div class="filter-group" style="margin-top: 16px;">
+            <select class="filter-select" id="typeFilter">
+                <option value="all">All Types</option>
+                <option value="Full-time">Full-time</option>
+                <option value="Part-time">Part-time</option>
+                <option value="Freelance">Freelance</option>
+                <option value="Intern">Intern</option>
+                <option value="Contract">Contract</option>
+            </select>
+            <select class="filter-select" id="locationFilter">
+                <option value="all">All Locations</option>
+                <option value="Remote">Remote</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+                <option value="Global">Global</option>
+            </select>
+            <select class="filter-select" id="salaryFilter">
+                <option value="all">All Salaries</option>
+                <option value="0-20000">$0 - $20,000</option>
+                <option value="20000-40000">$20,000 - $40,000</option>
+                <option value="40000-60000">$40,000 - $60,000</option>
+                <option value="60000-80000">$60,000 - $80,000</option>
+                <option value="80000+">$80,000+</option>
+            </select>
+        </div>
+    </div>
+</section>
+
+<!-- Circulars Grid -->
+<section class="container">
+    <div class="circulars-grid" id="circularsGrid"></div>
+    <div class="load-more" id="loadMoreContainer">
+        <button class="load-more-btn" id="loadMoreBtn">Load More Positions</button>
+    </div>
+</section>
+
+<!-- Modal for Application -->
+<div id="applyModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="modalTitle">Apply for Position</h2>
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+        </div>
+        <div id="modalDetails"></div>
+        <form class="apply-form" id="applyForm" action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-group">
+                <label>Full Name *</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-group">
+                <label>Email Address *</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>Phone Number (with country code)</label>
+                <input type="text" name="phone">
+            </div>
+            <div class="form-group">
+                <label>LinkedIn Profile / Portfolio</label>
+                <input type="text" name="portfolio">
+            </div>
+            <div class="form-group">
+                <label>Resume/CV (Google Drive Link or Upload)</label>
+                <input type="text" name="resume" placeholder="https://drive.google.com/...">
+            </div>
+            <div class="form-group">
+                <label>Why do you want to join Nirob Digital?</label>
+                <textarea name="message" rows="3"></textarea>
+            </div>
+            <input type="hidden" name="position" id="hiddenPosition">
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </form>
+        <div style="margin-top: 16px; text-align: center;">
+            <p style="color:#64748B; font-size:0.8rem;">Or email your CV to <strong>careers@nirobdigital.com</strong></p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Nirob Digital. All rights reserved. | <a href="privacy.html" style="color:#64748B;">Privacy Policy</a> | <a href="terms.html" style="color:#64748B;">Terms of Service</a></p>
+        <p style="margin-top: 8px;">📧 careers@nirobdigital.com | 🌍 nirobdigital.com/careers</p>
+    </div>
+</footer>
+
+<script>
+    // 100+ Circulars Data - Complete List
+    const circulars = [
+        // Technical Department (25 positions)
+        { id: 1, title: "Full Stack Developer (Reels Tool)", category: "Technical", type: "Full-time", location: "Remote", salary: "$50,000 - $80,000", description: "Build our AI-powered Reels & Shorts Maker Tool using FFmpeg, Bash, PHP, and Python. 3+ years experience required. Expertise in video processing and API integration." },
+        { id: 2, title: "Frontend Developer (React.js/Vue.js)", category: "Technical", type: "Full-time", location: "Remote", salary: "$35,000 - $55,000", description: "Create beautiful, responsive UI for our tools and marketplace. 2+ years experience with React/Vue. Strong CSS and JavaScript skills." },
+        { id: 3, title: "Backend Developer (Node.js/Python)", category: "Technical", type: "Full-time", location: "Remote", salary: "$45,000 - $70,000", description: "Build scalable APIs, database architecture, and server-side logic. 3+ years experience with Node.js or Python." },
+        { id: 4, title: "DevOps Engineer", category: "Technical", type: "Full-time", location: "Remote", salary: "$45,000 - $70,000", description: "Manage server infrastructure, CI/CD pipelines, and cloud deployment (AWS/GCP). 3+ years experience with Docker, Kubernetes." },
+        { id: 5, title: "WordPress Developer", category: "Technical", type: "Full-time", location: "Remote", salary: "$30,000 - $50,000", description: "Custom theme and plugin development, WooCommerce integration. 2+ years WordPress experience." },
+        { id: 6, title: "Modesy Script Expert", category: "Technical", type: "Full-time", location: "Remote", salary: "$35,000 - $55,000", description: "Specialize in Modesy e-commerce script, customization, and maintenance. Experience with multi-vendor marketplace setup." },
+        { id: 7, title: "AI/ML Engineer", category: "Technical", type: "Full-time", location: "Remote", salary: "$60,000 - $90,000", description: "Develop AI models for content generation, voice synthesis, and automation. Experience with OpenAI, Gemini APIs." },
+        { id: 8, title: "Blockchain Developer", category: "Technical", type: "Full-time", location: "Remote", salary: "$70,000 - $100,000", description: "Smart contract development (Solidity/Rust), Web3 integration, DeFi applications. 2+ years experience." },
+        { id: 9, title: "Mobile App Developer (React Native)", category: "Technical", type: "Full-time", location: "Remote", salary: "$40,000 - $65,000", description: "Build iOS/Android apps for our marketplace and tools. 2+ years React Native experience." },
+        { id: 10, title: "Database Administrator", category: "Technical", type: "Full-time", location: "Remote", salary: "$35,000 - $55,000", description: "Manage MySQL/PostgreSQL databases, optimize queries, ensure data integrity. 2+ years experience." },
+        { id: 11, title: "Security Engineer", category: "Technical", type: "Full-time", location: "Remote", salary: "$50,000 - $80,000", description: "Perform security audits, penetration testing, and implement security best practices. CEH/CISSP preferred." },
+        { id: 12, title: "API Integration Specialist", category: "Technical", type: "Full-time", location: "Remote", salary: "$35,000 - $55,000", description: "Integrate third-party APIs (payment gateways, social media, AI services). Experience with REST/GraphQL." },
+        { id: 13, title: "System Administrator", category: "Technical", type: "Full-time", location: "Remote", salary: "$30,000 - $50,000", description: "Manage Linux servers, cPanel, WHM, and hosting environments. 2+ years experience." },
+        { id: 14, title: "QA Engineer", category: "Technical", type: "Full-time", location: "Remote", salary: "$25,000 - $40,000", description: "Manual and automated testing, bug tracking, quality assurance processes. 1+ years experience." },
+        { id: 15, title: "Technical Support Engineer", category: "Technical", type: "Full-time", location: "Remote", salary: "$20,000 - $35,000", description: "Provide technical support for our tools and marketplace. Strong troubleshooting skills." },
+        { id: 16, title: "Junior Developer (Intern)", category: "Technical", type: "Intern", location: "Remote", salary: "$5,000 - $10,000", description: "Learn and contribute to our development projects. Mentorship provided. 3-6 months program." },
+        { id: 17, title: "Freelance WordPress Developer", category: "Technical", type: "Freelance", location: "Remote", salary: "Project-based", description: "Work on specific WordPress projects. Flexible hours. Payment per project." },
+        { id: 18, title: "Freelance Python Developer", category: "Technical", type: "Freelance", location: "Remote", salary: "Project-based", description: "Build automation scripts, data processing tools. Experience with APIs required." },
+        { id: 19, title: "Smart Contract Auditor", category: "Technical", type: "Freelance", location: "Remote", salary: "$500 - $2,000/project", description: "Audit smart contracts for security vulnerabilities. Solidity expertise required." },
+        { id: 20, title: "Web3 Integration Specialist", category: "Technical", type: "Contract", location: "Remote", salary: "$40,000 - $60,000", description: "Integrate Web3 wallet connections, smart contract interactions. 6-month contract." },
+        { id: 21, title: "Cloud Architect", category: "Technical", type: "Full-time", location: "Remote", salary: "$70,000 - $100,000", description: "Design scalable cloud infrastructure on AWS/GCP. 5+ years experience." },
+        { id: 22, title: "Data Scientist", category: "Technical", type: "Full-time", location: "Remote", salary: "$60,000 - $90,000", description: "Analyze user data, build predictive models. Experience with Python, SQL, ML libraries." },
+        { id: 23, title: "DevOps Engineer (Junior)", category: "Technical", type: "Full-time", location: "Remote", salary: "$30,000 - $45,000", description: "Assist with CI/CD pipelines, server monitoring, and deployment. 1+ years experience." },
+        { id: 24, title: "Technical Writer", category: "Technical", type: "Full-time", location: "Remote", salary: "$25,000 - $40,000", description: "Create documentation, API guides, and technical tutorials. Strong writing skills." },
+        { id: 25, title: "Product Manager (Tech)", category: "Technical", type: "Full-time", location: "Remote", salary: "$60,000 - $85,000", description: "Lead product development, define features, manage roadmap. 3+ years experience." },
+        
+        // Content Department (25 positions)
+        { id: 26, title: "Video Editor (Reels Specialist)", category: "Content", type: "Full-time", location: "Remote", salary: "$30,000 - $45,000", description: "Create viral 15-45 second reels using CapCut, Premiere Pro. 2+ years experience. Portfolio required." },
+        { id: 27, title: "Senior Content Writer", category: "Content", type: "Full-time", location: "Remote", salary: "$25,000 - $38,000", description: "Write blog posts, video scripts, and SEO content. 2+ years experience in tech niches." },
+        { id: 28, title: "Copywriter", category: "Content", type: "Full-time", location: "Remote", salary: "$22,000 - $35,000", description: "Write ad copies, email campaigns, and sales pages. Strong persuasive writing skills." },
+        { id: 29, title: "YouTube Scriptwriter", category: "Content", type: "Full-time", location: "Remote", salary: "$24,000 - $38,000", description: "Create engaging scripts for YouTube videos. Experience with YouTube format required." },
+        { id: 30, title: "Podcast Scriptwriter", category: "Content", type: "Full-time", location: "Remote", salary: "$22,000 - $35,000", description: "Write scripts for podcast episodes. Understanding of audio content structure." },
+        { id: 31, title: "SEO Content Writer", category: "Content", type: "Full-time", location: "Remote", salary: "$23,000 - $36,000", description: "Create SEO-optimized blog posts and articles. Keyword research skills required." },
+        { id: 32, title: "Newsletter Writer", category: "Content", type: "Full-time", location: "Remote", salary: "$20,000 - $32,000", description: "Write weekly email newsletters. Strong copywriting and engagement skills." },
+        { id: 33, title: "Proofreader/Editor", category: "Content", type: "Full-time", location: "Remote", salary: "$18,000 - $28,000", description: "Edit and proofread content for grammar, style, and accuracy. Attention to detail." },
+        { id: 34, title: "Content Strategist", category: "Content", type: "Full-time", location: "Remote", salary: "$35,000 - $55,000", description: "Develop content strategy, editorial calendar, and content roadmap. 3+ years experience." },
+        { id: 35, title: "Social Media Content Creator", category: "Content", type: "Full-time", location: "Remote", salary: "$22,000 - $35,000", description: "Create engaging posts, reels, and stories for social media. Video editing skills." },
+        { id: 36, title: "AI Content Specialist", category: "Content", type: "Full-time", location: "Remote", salary: "$28,000 - $42,000", description: "Use AI tools to generate and optimize content. Experience with ChatGPT, Jasper." },
+        { id: 37, title: "Crypto Content Writer", category: "Content", type: "Full-time", location: "Remote", salary: "$25,000 - $40,000", description: "Write about crypto, blockchain, DeFi, and Web3. Strong understanding of crypto space." },
+        { id: 38, title: "Tech Content Writer", category: "Content", type: "Full-time", location: "Remote", salary: "$24,000 - $38,000", description: "Write about AI, cybersecurity, gadgets, and software. Technical background preferred." },
+        { id: 39, title: "Podcast Producer", category: "Content", type: "Full-time", location: "Remote", salary: "$28,000 - $45,000", description: "Produce and edit podcast episodes. Experience with audio editing software." },
+        { id: 40, title: "Audio Editor", category: "Content", type: "Full-time", location: "Remote", salary: "$22,000 - $35,000", description: "Edit and master audio for podcasts and videos. Experience with Audition/Audacity." },
+        { id: 41, title: "Voice Over Artist", category: "Content", type: "Freelance", location: "Remote", salary: "Per project", description: "Record voice overs for reels, videos, and ads. Professional microphone required." },
+        { id: 42, title: "Freelance Video Editor", category: "Content", type: "Freelance", location: "Remote", salary: "$50 - $200/video", description: "Edit short reels and videos. Flexible schedule. Payment per video." },
+        { id: 43, title: "Content Writer (Intern)", category: "Content", type: "Intern", location: "Remote", salary: "$5,000 - $8,000", description: "Learn content creation, SEO, and writing. 3-month internship program." },
+        { id: 44, title: "Video Editor (Intern)", category: "Content", type: "Intern", location: "Remote", salary: "$5,000 - $8,000", description: "Learn video editing and content creation. Mentorship provided." },
+        { id: 45, title: "Transcriptionist", category: "Content", type: "Freelance", location: "Remote", salary: "$10 - $20/hour", description: "Transcribe podcast episodes and videos. Fast typing speed required." },
+        { id: 46, title: "Localization Specialist", category: "Content", type: "Full-time", location: "Remote", salary: "$25,000 - $40,000", description: "Translate content for German, French, Spanish markets. Native speaker preferred." },
+        { id: 47, title: "Newsletter Editor", category: "Content", type: "Part-time", location: "Remote", salary: "$15,000 - $25,000", description: "Curate and edit weekly newsletter. 10-15 hours/week." },
+        { id: 48, title: "Blog Post Writer (Freelance)", category: "Content", type: "Freelance", location: "Remote", salary: "$50 - $150/post", description: "Write SEO-optimized blog posts. 1000-2000 words per post." },
+        { id: 49, title: "Scriptwriter (Freelance)", category: "Content", type: "Freelance", location: "Remote", salary: "$30 - $80/script", description: "Write short video scripts for reels and shorts." },
+        { id: 50, title: "Content Manager", category: "Content", type: "Full-time", location: "Remote", salary: "$40,000 - $60,000", description: "Oversee content team, manage content calendar, ensure quality. 3+ years experience." },
+        
+        // Marketing Department (25 positions)
+        { id: 51, title: "Digital Marketing Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$35,000 - $50,000", description: "Run Facebook, Google, TikTok ads. Optimize ROAS. 2+ years experience." },
+        { id: 52, title: "SEO Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$32,000 - $48,000", description: "Drive organic traffic through keyword research, on-page SEO, and backlink strategy." },
+        { id: 53, title: "Social Media Manager", category: "Marketing", type: "Full-time", location: "Remote", salary: "$30,000 - $42,000", description: "Manage Twitter, Instagram, Facebook, LinkedIn. 2+ years experience." },
+        { id: 54, title: "Affiliate Manager", category: "Marketing", type: "Full-time", location: "Remote", salary: "$35,000 - $50,000", description: "Recruit and manage affiliates, grow affiliate revenue. 2+ years experience." },
+        { id: 55, title: "Email Marketing Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$28,000 - $42,000", description: "Create and manage email campaigns. Experience with Mailchimp, ConvertKit." },
+        { id: 56, title: "PPC Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$30,000 - $45,000", description: "Manage Google Ads, Facebook Ads campaigns. Strong analytics skills." },
+        { id: 57, title: "Growth Hacker", category: "Marketing", type: "Full-time", location: "Remote", salary: "$40,000 - $60,000", description: "Drive user acquisition through creative strategies. Experience with viral growth." },
+        { id: 58, title: "Community Manager", category: "Marketing", type: "Full-time", location: "Remote", salary: "$25,000 - $38,000", description: "Manage Discord, Telegram, Facebook groups. Engage with community." },
+        { id: 59, title: "Influencer Marketing Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$28,000 - $42,000", description: "Recruit influencers, manage partnerships, track campaign performance." },
+        { id: 60, title: "Brand Strategist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$45,000 - $65,000", description: "Develop brand positioning, messaging, and identity. 3+ years experience." },
+        { id: 61, title: "Marketing Analyst", category: "Marketing", type: "Full-time", location: "Remote", salary: "$30,000 - $45,000", description: "Analyze campaign data, provide insights, optimize performance. SQL skills." },
+        { id: 62, title: "Content Marketing Manager", category: "Marketing", type: "Full-time", location: "Remote", salary: "$38,000 - $55,000", description: "Develop content marketing strategy, manage content team." },
+        { id: 63, title: "PR Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$28,000 - $42,000", description: "Manage media relations, press releases, and brand reputation." },
+        { id: 64, title: "Product Marketing Manager", category: "Marketing", type: "Full-time", location: "Remote", salary: "$45,000 - $65,000", description: "Launch new products, develop go-to-market strategies. 3+ years experience." },
+        { id: 65, title: "Affiliate Marketer", category: "Marketing", type: "Freelance", location: "Remote", salary: "Commission-based", description: "Promote Nirob Digital products. 30% commission per sale. 5000+ followers preferred." },
+        { id: 66, title: "Social Media Intern", category: "Marketing", type: "Intern", location: "Remote", salary: "$5,000 - $8,000", description: "Learn social media management, content creation. 3-month internship." },
+        { id: 67, title: "SEO Intern", category: "Marketing", type: "Intern", location: "Remote", salary: "$5,000 - $8,000", description: "Learn SEO techniques, keyword research, link building." },
+        { id: 68, title: "Paid Ads Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$32,000 - $48,000", description: "Manage paid ad campaigns across platforms. Budget management experience." },
+        { id: 69, title: "Crypto Marketing Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$35,000 - $55,000", description: "Market crypto products, engage Web3 community. Experience in crypto space." },
+        { id: 70, title: "Podcast Marketing Manager", category: "Marketing", type: "Full-time", location: "Remote", salary: "$30,000 - $45,000", description: "Promote podcast, grow listener base, manage sponsorships." },
+        { id: 71, title: "Video Marketing Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$28,000 - $42,000", description: "Create and promote video content for YouTube, TikTok, Instagram." },
+        { id: 72, title: "Freelance Social Media Manager", category: "Marketing", type: "Freelance", location: "Remote", salary: "$500 - $1,500/month", description: "Manage social media accounts for specific projects." },
+        { id: 73, title: "Freelance SEO Consultant", category: "Marketing", type: "Freelance", location: "Remote", salary: "$50 - $150/hour", description: "Provide SEO consulting services for clients." },
+        { id: 74, title: "Marketing Coordinator", category: "Marketing", type: "Full-time", location: "Remote", salary: "$25,000 - $38,000", description: "Coordinate marketing campaigns, manage schedules, track results." },
+        { id: 75, title: "Web Analytics Specialist", category: "Marketing", type: "Full-time", location: "Remote", salary: "$30,000 - $45,000", description: "Track and analyze website data, provide insights. GA4 expertise required." },
+        
+        // Design Department (15 positions)
+        { id: 76, title: "Graphic Designer (Thumbnails)", category: "Design", type: "Full-time", location: "Remote", salary: "$28,000 - $40,000", description: "Design YouTube thumbnails, social media graphics, and product covers. Portfolio required." },
+        { id: 77, title: "UI/UX Designer", category: "Design", type: "Full-time", location: "Remote", salary: "$35,000 - $55,000", description: "Design user interfaces, prototypes, and user flows. Figma/Sketch expertise." },
+        { id: 78, title: "Motion Graphics Designer", category: "Design", type: "Full-time", location: "Remote", salary: "$30,000 - $48,000", description: "Create animated graphics for videos and reels. After Effects expertise." },
+        { id: 79, title: "Brand Designer", category: "Design", type: "Full-time", location: "Remote", salary: "$32,000 - $50,000", description: "Develop brand identity, logos, and visual guidelines." },
+        { id: 80, title: "Web Designer", category: "Design", type: "Full-time", location: "Remote", salary: "$28,000 - $42,000", description: "Design responsive websites, landing pages, and marketing sites." },
+        { id: 81, title: "Product Designer", category: "Design", type: "Full-time", location: "Remote", salary: "$38,000 - $58,000", description: "Design digital products, user flows, and prototypes. 2+ years experience." },
+        { id: 82, title: "Illustrator", category: "Design", type: "Freelance", location: "Remote", salary: "Project-based", description: "Create custom illustrations for products and marketing. Style adaptable." },
+        { id: 83, title: "Canva Template Designer", category: "Design", type: "Freelance", location: "Remote", salary: "$20 - $50/template", description: "Create premium Canva templates for resale." },
+        { id: 84, title: "Packaging Designer", category: "Design", type: "Freelance", location: "Remote", salary: "Project-based", description: "Design packaging for physical products (POD)." },
+        { id: 85, title: "Logo Designer", category: "Design", type: "Freelance", location: "Remote", salary: "$50 - $200/logo", description: "Create custom logos for clients. Portfolio required." },
+        { id: 86, title: "Design Intern", category: "Design", type: "Intern", location: "Remote", salary: "$5,000 - $8,000", description: "Learn design skills, create assets, assist senior designers." },
+        { id: 87, title: "Freelance Thumbnail Designer", category: "Design", type: "Freelance", location: "Remote", salary: "$10 - $30/thumbnail", description: "Design YouTube thumbnails for content creators." },
+        { id: 88, title: "Presentation Designer", category: "Design", type: "Freelance", location: "Remote", salary: "$50 - $150/deck", description: "Design professional presentations and pitch decks." },
+        { id: 89, title: "UI Designer (Mobile)", category: "Design", type: "Full-time", location: "Remote", salary: "$32,000 - $48,000", description: "Design mobile app interfaces. Experience with iOS/Android guidelines." },
+        { id: 90, title: "UX Researcher", category: "Design", type: "Full-time", location: "Remote", salary: "$35,000 - $52,000", description: "Conduct user research, usability testing, and provide insights." },
+        
+        // Support Department (15 positions)
+        { id: 91, title: "Customer Support Executive", category: "Support", type: "Full-time", location: "Remote", salary: "$18,000 - $25,000", description: "Provide email and chat support. Excellent English communication required." },
+        { id: 92, title: "Seller Support Executive", category: "Support", type: "Full-time", location: "Remote", salary: "$18,000 - $25,000", description: "Support marketplace sellers, handle onboarding and queries." },
+        { id: 93, title: "Technical Support Specialist", category: "Support", type: "Full-time", location: "Remote", salary: "$22,000 - $32,000", description: "Provide technical support for tools and platform. Troubleshooting skills." },
+        { id: 94, title: "Community Support Moderator", category: "Support", type: "Full-time", location: "Remote", salary: "$18,000 - $25,000", description: "Moderate Discord, Telegram, and Facebook groups." },
+        { id: 95, title: "Support Team Lead", category: "Support", type: "Full-time", location: "Remote", salary: "$28,000 - $38,000", description: "Lead support team, handle escalations, improve processes." },
+        { id: 96, title: "Part-time Support Agent", category: "Support", type: "Part-time", location: "Remote", salary: "$12,000 - $18,000", description: "Handle support tickets on weekends. 20 hours/week." },
+        { id: 97, title: "Support Intern", category: "Support", type: "Intern", location: "Remote", salary: "$5,000 - $7,000", description: "Learn customer support processes, assist team." },
+        { id: 98, title: "Billing Support Specialist", category: "Support", type: "Full-time", location: "Remote", salary: "$20,000 - $28,000", description: "Handle billing inquiries, refunds, and payment issues." },
+        { id: 99, title: "Onboarding Specialist", category: "Support", type: "Full-time", location: "Remote", salary: "$22,000 - $32,000", description: "Guide new sellers through onboarding process." },
+        { id: 100, title: "Knowledge Base Writer", category: "Support", type: "Full-time", location: "Remote", salary: "$20,000 - $28,000", description: "Create help articles, FAQs, and documentation." },
+        { id: 101, title: "Freelance Support Agent", category: "Support", type: "Freelance", location: "Remote", salary: "$8 - $12/hour", description: "Provide support during peak hours. Flexible schedule." },
+        { id: 102, title: "Email Support Specialist", category: "Support", type: "Full-time", location: "Remote", salary: "$18,000 - $25,000", description: "Handle email inquiries, maintain response time SLAs." },
+        { id: 103, title: "Live Chat Support", category: "Support", type: "Full-time", location: "Remote", salary: "$18,000 - $25,000", description: "Provide real-time chat support to customers." },
+        { id: 104, title: "Quality Assurance Specialist", category: "Support", type: "Full-time", location: "Remote", salary: "$22,000 - $32,000", description: "Monitor support quality, provide feedback and training." },
+        { id: 105, title: "Escalation Manager", category: "Support", type: "Full-time", location: "Remote", salary: "$28,000 - $40,000", description: "Handle complex customer issues and escalations." },
+        
+        // Management & HR (10 positions)
+        { id: 106, title: "Project Manager", category: "Management", type: "Full-time", location: "Remote", salary: "$40,000 - $60,000", description: "Coordinate projects across teams, track deliverables, and ensure timely execution." },
+        { id: 107, title: "Product Manager", category: "Management", type: "Full-time", location: "Remote", salary: "$50,000 - $75,000", description: "Define product roadmap, prioritize features, work with development team." },
+        { id: 108, title: "HR Manager", category: "Management", type: "Full-time", location: "Remote", salary: "$35,000 - $55,000", description: "Manage recruitment, employee relations, and HR processes." },
+        { id: 109, title: "Recruitment Specialist", category: "HR", type: "Full-time", location: "Remote", salary: "$25,000 - $38,000", description: "Source candidates, conduct interviews, manage hiring process." },
+        { id: 110, title: "Training & Onboarding Specialist", category: "HR", type: "Full-time", location: "Remote", salary: "$25,000 - $35,000", description: "Train new team members, create onboarding materials." },
+        { id: 111, title: "Operations Manager", category: "Management", type: "Full-time", location: "Remote", salary: "$45,000 - $65,000", description: "Oversee daily operations, improve processes, manage budgets." },
+        { id: 112, title: "Finance Manager", category: "Finance", type: "Full-time", location: "Remote", salary: "$40,000 - $60,000", description: "Manage finances, budgeting, payroll, and financial reporting." },
+        { id: 113, title: "Sales Manager", category: "Sales", type: "Full-time", location: "Remote", salary: "$45,000 - $70,000", description: "Lead sales team, develop sales strategy, close enterprise deals." },
+        { id: 114, title: "Business Development Manager", category: "Sales", type: "Full-time", location: "Remote", salary: "$50,000 - $80,000", description: "Identify partnership opportunities, negotiate deals, grow revenue." },
+        { id: 115, title: "Executive Assistant", category: "Management", type: "Full-time", location: "Remote", salary: "$25,000 - $38,000", description: "Support CEO with scheduling, communications, and admin tasks." }
+    ];
+
+    let visibleCount = 20;
+    let currentFilter = "all";
+    let currentType = "all";
+    let currentLocation = "all";
+    let currentSalary = "all";
+    let currentSearch = "";
+
+    function getBadgeClass(type) {
+        const badges = {
+            "Full-time": "badge-fulltime",
+            "Part-time": "badge-parttime",
+            "Freelance": "badge-freelance",
+            "Remote": "badge-remote",
+            "Intern": "badge-intern",
+            "Contract": "badge-contract"
+        };
+        return badges[type] || "badge-fulltime";
+    }
+
+    function filterCirculars() {
+        return circulars.filter(c => {
+            const matchCategory = currentFilter === "all" || c.category === currentFilter;
+            const matchType = currentType === "all" || c.type === currentType;
+            const matchLocation = currentLocation === "all" || c.location === currentLocation;
+            const matchSearch = currentSearch === "" || 
+                c.title.toLowerCase().includes(currentSearch.toLowerCase()) ||
+                c.description.toLowerCase().includes(currentSearch.toLowerCase()) ||
+                c.category.toLowerCase().includes(currentSearch.toLowerCase());
+            
+            let matchSalary = true;
+            if (currentSalary !== "all") {
+                const salaryNum = parseInt(c.salary.replace(/[^0-9]/g, '')) || 0;
+                if (currentSalary === "0-20000") matchSalary = salaryNum <= 20000;
+                else if (currentSalary === "20000-40000") matchSalary = salaryNum > 20000 && salaryNum <= 40000;
+                else if (currentSalary === "40000-60000") matchSalary = salaryNum > 40000 && salaryNum <= 60000;
+                else if (currentSalary === "60000-80000") matchSalary = salaryNum > 60000 && salaryNum <= 80000;
+                else if (currentSalary === "80000+") matchSalary = salaryNum > 80000;
+            }
+            
+            return matchCategory && matchType && matchLocation && matchSearch && matchSalary;
+        });
+    }
+
+    function renderCirculars() {
+        const filtered = filterCirculars();
+        const visible = filtered.slice(0, visibleCount);
+        const grid = document.getElementById("circularsGrid");
+        
+        if (visible.length === 0) {
+            grid.innerHTML = `<div style="text-align: center; padding: 60px; color: #64748B;"><i class="fas fa-search" style="font-size: 48px; margin-bottom: 16px;"></i><p>No positions found matching your criteria.</p><p>Try adjusting your filters or search term.</p></div>`;
+            document.getElementById("loadMoreContainer").style.display = "none";
+            return;
+        }
+        
+        grid.innerHTML = visible.map(circular => `
+            <div class="circular-card" data-id="${circular.id}">
+                <span class="circular-badge ${getBadgeClass(circular.type)}">${circular.type}</span>
+                <div class="circular-title">${circular.title}</div>
+                <div class="circular-meta">
+                    <span><i class="fas fa-map-marker-alt"></i> ${circular.location}</span>
+                    <span><i class="fas fa-clock"></i> ${circular.type}</span>
+                    <span><i class="fas fa-tag"></i> ${circular.category}</span>
+                </div>
+                <div class="circular-desc">${circular.description.substring(0, 120)}...</div>
+                <div class="circular-meta" style="margin-bottom: 12px;">
+                    <span><i class="fas fa-dollar-sign"></i> ${circular.salary}</span>
+                </div>
+                <button class="btn-apply" onclick="openModal(${circular.id})">Apply Now →</button>
+            </div>
+        `).join("");
+        
+        document.getElementById("loadMoreContainer").style.display = visibleCount >= filtered.length ? "none" : "block";
+    }
+
+    function openModal(id) {
+        const circular = circulars.find(c => c.id === id);
+        if (!circular) return;
+        
+        document.getElementById("modalTitle").innerText = `Apply: ${circular.title}`;
+        document.getElementById("hiddenPosition").value = circular.title;
+        
+        const detailsHtml = `
+            <div class="modal-meta">
+                <div><i class="fas fa-briefcase"></i> ${circular.type}</div>
+                <div><i class="fas fa-map-marker-alt"></i> ${circular.location}</div>
+                <div><i class="fas fa-tag"></i> ${circular.category}</div>
+                <div><i class="fas fa-dollar-sign"></i> ${circular.salary}</div>
+            </div>
+            <div class="modal-desc">
+                <strong>Job Description:</strong><br>
+                ${circular.description}
+            </div>
+            <div class="modal-desc">
+                <strong>Requirements:</strong><br>
+                • ${circular.type} position<br>
+                • Remote work opportunity<br>
+                • Competitive salary and benefits<br>
+                • Growth opportunities within Nirob Digital
+            </div>
+        `;
+        document.getElementById("modalDetails").innerHTML = detailsHtml;
+        document.getElementById("applyModal").style.display = "flex";
+    }
+
+    function closeModal() {
+        document.getElementById("applyModal").style.display = "none";
+    }
+
+    // Event Listeners
+    document.getElementById("searchInput").addEventListener("input", (e) => {
+        currentSearch = e.target.value;
+        visibleCount = 20;
+        renderCirculars();
+    });
+    
+    document.getElementById("typeFilter").addEventListener("change", (e) => {
+        currentType = e.target.value;
+        visibleCount = 20;
+        renderCirculars();
+    });
+    
+    document.getElementById("locationFilter").addEventListener("change", (e) => {
+        currentLocation = e.target.value;
+        visibleCount = 20;
+        renderCirculars();
+    });
+    
+    document.getElementById("salaryFilter").addEventListener("change", (e) => {
+        currentSalary = e.target.value;
+        visibleCount = 20;
+        renderCirculars();
+    });
+    
+    document.querySelectorAll(".filter-btn").forEach(btn => {
+        btn.addEventListener("click", function() {
+            document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+            this.classList.add("active");
+            currentFilter = this.getAttribute("data-filter");
+            visibleCount = 20;
+            renderCirculars();
+        });
+    });
+    
+    document.getElementById("loadMoreBtn").addEventListener("click", () => {
+        visibleCount += 20;
+        renderCirculars();
+    });
+    
+    window.onclick = function(event) {
+        const modal = document.getElementById("applyModal");
+        if (event.target === modal) closeModal();
+    }
+    
+    // Initial render
+    renderCirculars();
+</script>
+</body>
+</html>
